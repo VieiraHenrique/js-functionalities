@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>JS Fonctionnalities</title>
+        <link rel="stylesheet" href="/css/styles.css" />
+    </head>
+    <body>
+        <!--/////////////// MODAL /////////////////-->
+
+        <div class="modal">
+            <div class="modal__backdrop"></div>
+            <div class="modal__content">
+                <div class="modal--close modal--close-x">X</div>
+                <h2>Modal title</h2>
+                <p class="lead">Lead text of the modal</p>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur enim doloremque modi eveniet
+                    cumque placeat hic quaerat.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur enim doloremque modi eveniet
+                    cumque placeat hic quaerat.
+                </p>
+                <button class="modal--close">Close modal</button>
+            </div>
+        </div>
+
+        <section>
+            <button class="modal--trigger">Open modal</button>
+        </section>
+
+        <!--/////////////////// TABS ///////////////////////-->
+
+        <section style="margin-top: 100px">
+            <div class="tabs__triggers">
+                <input type="radio" name="tabs" id="tab-one" checked/>
+                <label for="tab-one">Tab one</label>
+                <input type="radio" name="tabs" id="tab-two" />
+                <label for="tab-two">Tab two</label>
+                <input type="radio" name="tabs" id="tab-three" />
+                <label for="tab-three">Tab three</label>
+            </div>
+            <div class="tabs">
+                <div class="tab" data-tab="tab-one">
+                    <h3>Tab one</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus dignissimos consequuntur
+                        debitis totam dolorem reprehenderit unde quod!
+                    </p>
+                </div>
+                <div class="tab" data-tab="tab-two">
+                    <h3>Tab two</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus dignissimos consequuntur
+                        debitis totam dolorem reprehenderit unde quod!
+                    </p>
+                </div>
+                <div class="tab" data-tab="tab-three">
+                    <h3>Tab three</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus dignissimos consequuntur
+                        debitis totam dolorem reprehenderit unde quod!
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <script src="./js//sections/_modal.js"></script>
+        <script src="./js//sections/_tabs.js"></script>
+    </body>
+</html>
