@@ -55,7 +55,7 @@ a {
 input,
 textarea {
   padding: 1rem;
-  border: none;
+  border: 1px solid black;
   outline: none;
 }
 
@@ -284,5 +284,49 @@ a {
 
 .tabs__triggers input[type="radio"] {
   display: none;
+}
+
+.error-message {
+  display: none;
+  position: absolute;
+}
+
+.form-control.error .error-message {
+  display: block;
+  color: red;
+}
+
+.form-control.error input {
+  border: 2px solid red;
+}
+
+.form-control.success input {
+  border: 2px solid green;
+}
+
+.form-control {
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.form-control input {
+  font-size: 16px;
+}
+
+.form-control label {
+  position: absolute;
+  z-index: 1;
+  bottom: 50%;
+  transform: translateY(50%);
+  left: 15px;
+  font-size: 16px;
+  transition: 0.2s ease;
+}
+
+.form-control .label-top {
+  bottom: 100%;
+  left: 5px;
+  transform: none;
+  font-size: 12px;
 }
 /*# sourceMappingURL=styles.css.map */

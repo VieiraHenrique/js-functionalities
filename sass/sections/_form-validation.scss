@@ -1,0 +1,18 @@
+.error-message {
+    display: none;
+    position: absolute;
+    
+}
+
+.form-control.error .error-message {
+    display: block;
+    color: red;
+}
+
+.form-control.error input {
+    border: 2px solid red;
+}
+
+.form-control.success input {
+    border: 2px solid green;
+}

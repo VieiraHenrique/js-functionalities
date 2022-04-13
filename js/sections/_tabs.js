@@ -8,7 +8,7 @@ const checkCurrentTab = () => {
         tabTitle.nextElementSibling.classList.remove("active");
         if (tabTitle.checked) {
             equivalentContent.style.display = "block";
-            tabTitle.nextElementSibling.classList.add("active");
+            tabTitle.nextElementSibling.classList.add("tab-active");
         }
     });
 };

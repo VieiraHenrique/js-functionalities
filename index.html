@@ -36,7 +36,7 @@
 
         <section style="margin-top: 100px">
             <div class="tabs__triggers">
-                <input type="radio" name="tabs" id="tab-one" checked/>
+                <input type="radio" name="tabs" id="tab-one" checked />
                 <label for="tab-one">Tab one</label>
                 <input type="radio" name="tabs" id="tab-two" />
                 <label for="tab-two">Tab two</label>
@@ -68,7 +68,46 @@
             </div>
         </section>
 
+        <section style="margin-top: 100px">
+            <form class="form" action="">
+                <div class="form-control">
+                    <input type="text" id="first-name" />
+                    <label for="first-name">First Name</label>
+                    <small class="error-message">Error message</small>
+                </div>
+
+                <div class="form-control">
+                    <input type="text" id="last-name" />
+                    <label for="last-name">Last Name</label>
+                    <small class="error-message">Error message</small>
+                </div>
+
+                <div class="form-control">
+                    <input type="text" id="email" />
+                    <label for="email">Email</label>
+                    <small class="error-message">Error message</small>
+                </div>
+
+                <div class="form-control">
+                    <input type="password" id="password" />
+                    <label for="password">Password</label>
+                    <small class="error-message">Error message</small>
+                </div>
+
+                <div class="form-control">
+                    <input type="password" id="password-confirm" />
+                    <label for="password-confirm">Confirm Password</label>
+                    <small class="error-message">Error message</small>
+                </div>
+
+                <button>Send</button>
+            </form>
+        </section>
+
         <script src="./js//sections/_modal.js"></script>
         <script src="./js//sections/_tabs.js"></script>
+        <script src="./js//sections/_form.js"></script>
+        <script src="./js//sections/_form-validation.js"></script>
+        <script src="./js//sections/_input-label.js"></script>
     </body>
 </html>
